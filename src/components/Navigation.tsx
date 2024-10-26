@@ -16,7 +16,7 @@ const Navigation = () => {
     setSelectedPath(matchedIndex !== -1 ? matchedIndex : 0);
   }, [path]);
 
-  const handleTabChange = (newValue: any) => {
+  const handleTabChange = (newValue: number) => {
     setSelectedPath(newValue);
     const routes = ["/home", "/profile", "/skills"];
     router.push(routes[newValue]);
@@ -26,7 +26,7 @@ const Navigation = () => {
     <Tabs
       aria-label="tabs"
       value={selectedPath}
-      onChange={(_, value) => handleTabChange(value)}
+      onChange={(_, value) => handleTabChange(value as number)}
       sx={{
         bgcolor: "transparent",
         position: "fixed",
