@@ -1,7 +1,7 @@
-import About from "king/components/About";
+import SkillSet from "king/components/Skillset";
 
 const Skills = () => {
-  return <About />;
+  return <SkillSet />;
 };
 
 export default Skills;

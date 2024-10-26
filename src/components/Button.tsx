@@ -20,6 +20,7 @@ const Button = ({ title, icon, sx, redirect, onClick }: Props) => {
           ...sx,
           border: 1,
           padding: 1,
+          zIndex: -1,
         }}
       >
         <Typography variant="button">{title}</Typography>
