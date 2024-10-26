@@ -25,7 +25,11 @@ const About = () => {
       <Typography variant="caption" sx={{ maxWidth: 600, textAlign: "center" }}>
         {INTRODUCTION}
       </Typography>
-      <Button title="See skills" icon={<Icon icon="line-md:arrow-right" />} />
+      <Button
+        title="See skills"
+        icon={<Icon icon="line-md:arrow-right" />}
+        redirect="/skills"
+      />
       <Navigation />
     </Stack>
   );
