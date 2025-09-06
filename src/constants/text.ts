@@ -9,7 +9,7 @@ export const TRAITS = [
 export const TABS = ["home", "profile", "skills"];
 
 export const INTRODUCTION =
-  "Hello! Marvin here, your swiftie developer. I've been a working as a software developer ever since my internship during my fourth year of college in 2022. I've tackled both front end and backend development. In a way, I can say I'm a full-stack developer myself. I had the most front-end experience in web development using Nextjs. As for backend, I've had a fair of experience in Microsoft Dotnet. I'm still in the process of learning things.";
+  "Hello! Marvin here, a software developer. I've been a working in the field ever since my internship during my fourth year of college in 2023. I've tackled both front end and backend development. In a way, I can say I'm a full-stack developer myself. I had the most front-end experience in web development using Nextjs. As for backend, I've had a fair of experience in Microsoft Dotnet. I'm still in the process of learning things.";
 
 export const MOST_USED_SKILLS = [
   { title: "Nextjs", icon: "logos:nextjs-icon" },
@@ -28,6 +28,8 @@ export const MOST_USED_SKILLS = [
   { title: "Postgresql", icon: "devicon:postgresql" },
   { title: "C#", icon: "devicon:csharp" },
   { title: "MongoDB", icon: "skill-icons:mongodb" },
+  { title: ".Net Core", icon: "devicon:dotnetcore" },
+  { title: "Bitbucket", icon: "skill-icons:bitbucket-light" }
 ];
 
 export const OTHER_KNOWN_SKILLS = [
@@ -37,7 +39,8 @@ export const OTHER_KNOWN_SKILLS = [
 
 export const HOBBIES = [
   { title: "Reading", icon: "material-symbols:book" },
-  { title: "Solving Rubik's Cube", icon: "iconoir:rubik-cube" },
+  { title: "Speedcubing", icon: "iconoir:rubik-cube" },
   { title: "Table Tennis", icon: "fa-solid:table-tennis" },
   { title: "Puzzles", icon: "majesticons:puzzle" },
+  { title: "Pickleball", icon: "material-symbols:pickleball" }
 ];
