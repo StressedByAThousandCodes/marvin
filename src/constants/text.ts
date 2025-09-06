@@ -1,9 +1,9 @@
 export const TRAITS = [
-  { title: "Swiftie", icon: "fa:diamond" },
   { title: "Software Developer", icon: "ant-design:code-outlined" },
   { title: "Reader", icon: "material-symbols:book" },
   { title: "Aries", icon: "fluent-emoji-high-contrast:aries" },
   { title: "Cynophile", icon: "ph:dog-fill" },
+  { title: "Swiftie", icon: "fa:diamond" }
 ];
 
 export const TABS = ["home", "profile", "skills"];
