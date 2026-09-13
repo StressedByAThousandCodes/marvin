@@ -1,3 +1,7 @@
 export const ProfileImages = [
-  "/hello.gif",
+  "/one.jpeg",
+  "/two.jpeg",
+  "/three.jpeg",
+  "/four.jpeg", 
+  "/five.jpeg", 
 ];
