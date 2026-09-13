@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Marvin",
     short_name: "Marvin",
-    start_url: "/home",
+    start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
     icons: [
