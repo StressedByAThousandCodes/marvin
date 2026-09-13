@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import "@fontsource/dancing-script/600.css";
+import "@fontsource/dancing-script/700.css";
 import "./globals.css";
+import ThemeProvider from "king/components/providers/ThemeProvider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Marvin",
-  description: "Personal Website Portfolio by Marvin Villalon",
+  title: "Marvin Villalon — Software Engineer",
+  description: "Personal portfolio of Marvin Villalon, software engineer.",
   manifest: "/manifest.ts",
   icons: [
     {
@@ -33,11 +36,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
